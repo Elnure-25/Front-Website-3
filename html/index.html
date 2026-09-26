@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div style=" margin-left: 35%; margin-top: 30px; "id="navbar" >
+        <a style="color: rgb(223, 0, 0); font-size: 22px;  margin-right: 20px;"href="">Home</a>
+        <a style="color: rgb(223, 0, 0); font-size: 22px; margin-right: 20px;"href="">About</a>
+        <a style="color: rgb(223, 0, 0); font-size: 22px; margin-right: 20px;"href="">Blog</a>
+        <a style="color: rgb(223, 0, 0); font-size: 22px; margin-right: 20px;"href="">Contact</a>
+        <a style="color: rgb(223, 0, 0); font-size: 22px; margin-right: 20px;"href="">Services</a>
+        <a style="color: rgb(223, 0, 0); font-size: 22px; margin-right: 20px;"href="">Login</a>
+    </div>
+    <h1 style="font-size: 70px;text-align: center;background: linear-gradient(90deg, #ff0080, #7928ca, #00c6ff);color: transparent; -webkit-background-clip: text; text-shadow: 5px 5px 20px gray;"><i class="fa-solid fa-guitar"></i> My Ecommerce Site</h1>
+
+    <audio style="border-radius: 70px; background-color: rgb(197, 124, 197); margin-left: 41%;" src="../sounds/liecio-bossa-nova-eletric-guitar-loop-258055.mp3" controls autoplay loop></audio>
+    <br><br><br>
+   <form action="https://www.guitarcenter.com/Guitars.gc">
+
+    <input style="width: 15%; margin-left: 40%;"type="search" name="search" placeholder="Search Guitar ..." required minlength="5">
+    <input type="submit" value="Search">
+    <input type="reset" value="Reset">
+
+</form>
+    <br><br><br>
+
+    <div style="text-align: center;" id="select">
+        <select name="" id="">
+        <option selected value="">Select Make</option>
+        <option value="">Gibson</option>
+        <option value="">Fender</option>
+    </select>
+
+    <select name="" id="">
+    <option selected value="">Select Model</option>
+    <option value="">Les Paul</option>
+    <option value="">SG</option>
+    <option value="">Telecaster</option>
+    <option value="">Stratocaster</option>
+    </select>
+
+    <select name="" id="">
+        <option selected value="">Select Type</option>
+        <option value="">Electric</option>
+    </select>
+    </div>
+    <br><br><br>
+   <div style="text-align: center;" id="label">
+     <label for="price">Select Price:</label>
+    <input id="price" type="text" placeholder="from" required>
+    <input type="text"placeholder="to" required>
+   </div>
+    <br><br><br><br>
+    
+    <table border="2" style="margin-left: 20%; border-collapse: collapse; width: 900px; height: 300px">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Type</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <img width="150px" height="150px" src="../imgs/lespaul.webp" alt="">
+            </td>
+            <td>Gibson</td>
+            <td>Les Paul</td>
+            <td>Electric</td>
+            <td>$3.000</td>
+        </tr>
+        <tr>
+            <td>
+                <img width="150px" height="150px" src="../imgs/sg.jfif.jpeg" alt="">
+            </td>
+            <td>Gibson</td>
+            <td>SG</td>
+            <td>Electric</td>
+            <td>$1.500</td>
+        </tr>
+        <tr>
+            <td>
+                <img width="150px" height="170px" src="../imgs/Telecaster.jfif.jpeg" alt="">
+            </td>
+            <td>Fender</td>
+            <td>Telecaster</td>
+            <td>Electric</td>
+            <td>$2.000</td>
+        </tr>
+        <tr>
+            <td>
+                <img width="150px" height="170px" src="../imgs/Stratocaster.jfif.jpeg" alt="">
+            </td>
+            <td>Fender</td>
+            <td>Stratocaster</td>
+            <td>Electric</td>
+            <td>$2.000</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
